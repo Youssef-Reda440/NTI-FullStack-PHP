@@ -1,0 +1,28 @@
+.header {
+    background-color: rgb(13, 13, 86);
+    padding: 20px;
+}
+
+.header h1 {
+    color: rgb(134, 134, 12)
+}
+
+.header p {
+    color: white
+}
+
+.places {
+    background-color: rgb(89, 89, 167)
+}
+
+.place {
+    display: inline-block;
+    width: 49%;
+}
+
+.place p,
+.place img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 49%;
+}

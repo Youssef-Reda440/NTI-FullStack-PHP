@@ -1,0 +1,55 @@
+.items {
+    text-align: center;
+}
+
+.item {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+
+.item img {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    border: 1px solid red;
+    width: 80%;
+}
+
+form {
+    width: 80%;
+    display: inline-block;
+    text-align: left;
+}
+
+form label {
+    display: inline-block;
+    width: 100px;
+}
+
+textarea {
+    vertical-align: middle;
+}
+
+.query-label {
+    vertical-align: middle;
+}
+
+.appointment-type label,
+.appointment-options {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.appointment-type>label {
+    width: 100px;
+}
+
+.appointment-options {
+    width: 70%;
+}

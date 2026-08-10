@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Doctor Appointment Form</title>
+</head>
+
+<body>
+    <div class="items">
+        <div class="item">
+            <img src="../Assets/doctor.png" alt="Doctor">
+        </div>
+
+        <!-- Doctor Appointment Form -->
+        <div class="item">
+            <h1>Doctor Appointment Form</h1>
+            <hr>
+
+            <form action="">
+                <label for="date">Appointment Date</label>
+                <input type="date" name="date" id="date" required>
+                <br><br>
+
+                <label for="time">Appointment Time</label>
+                <input type="time" name="time" id="time" required>
+                <br><br>
+
+                <label for="first-name">Name</label>
+                <input type="text" name="firstname" id="first-name" placeholder="First" required>
+                <input type="text" name="lastname" id="last-name" placeholder="Last" required>
+                <br><br>
+
+                <label>Gender</label>
+                <input type="radio" name="gender" value="Male" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="Female" id="female" checked>
+                <label for="female">Female</label>
+                <br><br>
+
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" placeholder="####" required>
+                <br><br>
+
+                <label for="city">Address</label>
+                <input type="text" name="city" id="city" placeholder="city" required>
+                <input type="text" name="state" id="state" placeholder="state" required>
+                <br><br>
+
+                <label for="query" class="query-label">Your Query</label>
+                <textarea name="query" id="query" cols="50" rows="7"></textarea>
+                <br><br>
+
+                <div class="appointment-type">
+                    <label>Appointment Type</label>
+                    <div class="appointment-options">
+                        <p>Select which appointment type(s) you require</p>
+
+                        <input type="checkbox" name="appointment-type" value="Cervix_checkup" id="cervix" checked>
+                        <label for="cervix">Cervix_checkup</label>
+                        <br>
+
+                        <input type="checkbox" name="appointment-type" value="Heart_checkup" id="heart" checked>
+                        <label for="heart">Heart_checkup</label>
+                        <br>
+
+                        <input type="checkbox" name="appointment-type" value="Eye_checkup" id="eye">
+                        <label for="eye">Eye_checkup</label>
+                        <br>
+
+                        <input type="checkbox" name="appointment-type" value="Hearing_test" id="hearing">
+                        <label for="hearing">Hearing_test</label>
+                        <br><br>
+
+                        <button type="submit">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
